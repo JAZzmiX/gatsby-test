@@ -1,4 +1,5 @@
 import * as React from "react"
+import SayHi from '../components/SayHi'
 
 // styles
 const pageStyles = {
@@ -130,6 +131,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <SayHi />
       <h1 style={headingStyles}>
         testing
         <br />
