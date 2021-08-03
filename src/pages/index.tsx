@@ -33,20 +33,20 @@ const listItemStyles = {
   fontSize: 24,
   maxWidth: 560,
   marginBottom: 30,
-}
+} as React.CSSProperties;
 
 const linkStyle = {
   color: "#8954A8",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
-}
+} as React.CSSProperties;
 
 const docLinkStyle = {
   ...linkStyle,
   listStyleType: "none",
   marginBottom: 24,
-}
+} as React.CSSProperties;
 
 const descriptionStyle = {
   color: "#232129",
@@ -76,7 +76,7 @@ const badgeStyle = {
   top: -2,
   marginLeft: 10,
   lineHeight: 1,
-}
+} as React.CSSProperties;
 
 // data
 const links = [
