@@ -7,7 +7,10 @@ interface SayHiProps {
 const SayHi: FC<SayHiProps> = ({}) => {
 
   return (
-    <h1>Hi, welcome to my site!</h1>
+   <>
+     <h1>Hi, welcome to</h1>
+     <h2>my site!</h2>
+   </>
   );
 }
 

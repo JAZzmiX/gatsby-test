@@ -1,5 +1,5 @@
-import * as React from "react"
-import SayHi from '../components/SayHi'
+import * as React from "react";
+import SayHi from '../components/SayHi';
 
 // styles
 const pageStyles = {
