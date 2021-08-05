@@ -1,5 +1,6 @@
 import * as React from "react";
 import SayHi from '../components/SayHi';
+import { Helmet } from "react-helmet";
 
 // styles
 const pageStyles = {
@@ -130,6 +131,11 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>My Title</title>
+          <meta name="description" content="Helmet application" />
+      </Helmet>
       <title>Home Page</title>
       <SayHi />
       <h1 style={headingStyles}>
