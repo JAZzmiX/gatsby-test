@@ -131,10 +131,12 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <Helmet>
-          <meta charSet="utf-8" />
-          <title>My Title</title>
-          <meta name="description" content="Helmet application" />
+      <Helmet htmlAttributes={{
+        lang: 'en',
+      }}>
+        <meta charSet="utf-8" />
+        <title>My Title</title>
+        <meta name="description" content="Helmet application" />
       </Helmet>
       <title>Home Page</title>
       <SayHi />
